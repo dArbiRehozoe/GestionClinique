@@ -1,0 +1,69 @@
+.searchTop{
+    display:flex;
+    justify-content: space-between
+}
+
+.history-home{
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchTopText{
+    font-weight: 700;
+    font-size: 32px;
+    width: 230px;
+}
+.searchTopButton {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 52px;
+    width: 188px;
+    background: black;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: 700;
+}
+
+
+.searchBottom{
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.searchBottomText{
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+@media screen and (max-width: 320px) {
+    .searchTopText{
+        font-size: 18px;
+    }
+    .searchTopButton{
+        font-size: 10px;
+        height: 40px;
+        width: 100px;
+    }
+    .searchTop{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .searchBottomText{
+        width: 300px;
+    }
+    .searchBotIm{
+        height: 220px;
+        width: 220px;
+    }
+    .searchBottomText{
+        font-size: 12px;
+    }
+    .searchBottom{
+        margin-left: 50px;
+        padding: 0px;
+    }
+  }

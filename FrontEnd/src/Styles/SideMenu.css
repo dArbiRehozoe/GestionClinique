@@ -1,0 +1,94 @@
+.side-menu {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top: 0;  
+  background-color: #FFF;
+  transition: width 0.3s ease;
+  z-index: 10; /* Updated z-index */
+  overflow: hidden;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+ 
+  .side-menu.open {
+    height: 100%;
+    width: 250px;
+    transition: width 0.3s ease;
+  }
+
+  .deco-sup:hover{
+
+    background-color: #EFEFEF;
+    border-radius:5px;
+  }
+  .deco{
+ width: 70%;
+ 
+   background-color: #ffffff00;
+  }
+  .deco:hover{
+    border-radius:5px;
+    background-color: #EFEFEF;
+    color:white;
+  }
+  .deco1:hover{
+    border-radius:5px;
+    background-color: #EFEFEF;
+    color:white;
+  }
+  .deco2:hover{
+    border-radius:20px;
+    background-color: #EFEFEF;
+    color:white;
+  }
+  .menu-toggle {
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+  padding-bottom: 10px;
+  background-color: rgba(252,254,253,255);
+ 
+  }
+
+  .x{
+    float: right;
+    margin-left: 90px;
+    margin-top: 2px;
+    color: #2e0d5c;
+  
+  }
+  .logox{
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #2e0d5c;
+  }
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+  }
+  
+  .custom-nav {
+    top:0;
+    width:86%; /* Définissez la largeur à 80% de l'écran */
+  left:10%;
+
+    /* Centrez-le horizontalement si nécessaire */
+  }
+  @media only screen and (max-width: 600px) {
+    .custom-nav {
+    
+      width:80%; /* Définissez la largeur à 80% de l'écran */
+  
+    left:15%;
+      /* Centrez-le horizontalement si nécessaire */
+    }
+    }
+    
+  
+  /* Ajoutez d'autres styles selon vos besoins */
+  

@@ -1,0 +1,15 @@
+@media (max-width: 360px) {
+    .register-pic {
+        display: none;
+
+    }
+
+    .item2{
+        order: 1;
+    }
+
+    .item1{
+        order:2;
+    }
+
+}

@@ -1,0 +1,141 @@
+.profile {
+    margin-left: 156px;
+    margin-top: 58px;
+}
+
+.image {
+    width: 196px;
+    height: 198px;
+    border-radius: 10px;
+    margin-top:-90px;
+}
+
+    /* CSS for the delete confirmation dialog box */
+    .delete-confirmation-dialog {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 400px;
+        height: 200px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+    
+    /* CSS for the blurred background */
+    .blur-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+        z-index: 999;
+    }
+    
+
+.horizontal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.custom-file-upload {
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -70px;.container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .profile {
+        margin-top: 10px;
+    }
+    
+    .background-image {
+        width: 100%;
+    }
+    
+    .profile-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .profile-image {
+        position: relative;
+    }
+    
+    .custom-file-upload {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+    
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    
+    .username {
+        font-size: 16px;
+    }
+    
+    .email {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    /* Add media queries for smaller screens */
+    @media (max-width: 360px) {
+        .container {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    
+        .background-image {
+            height: auto;
+        }
+    
+        .profile-info {
+            align-items: flex-start;
+        }
+    
+        .image {
+            width: 40px;
+            height: 40px;
+        }
+    
+        .username {
+            font-size: 14px;
+        }
+    
+        .email {
+            font-size: 12px;
+        }
+    }
+    
+    margin-left:8.5px
+}
+
+.custom-file-upload:hover {
+    background-color: #e9e9e9;
+}
+
+#fileInput {
+    display: none;
+}

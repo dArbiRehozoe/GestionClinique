@@ -1,0 +1,25 @@
+.title{
+  margin-top:33px;
+}
+
+
+.right-title{
+  margin-left:390px;
+}
+
+.bodyCard{
+display: flex;
+  margin-top: 20px;
+  height: 400px;
+}
+.card{
+margin-left: 10px;
+padding: 20px, 20px, 20px, 30px;
+}
+
+.title-title{
+  margin-left:29px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 25px;
+}
